@@ -68,7 +68,7 @@ functions:
       NEW_RELIC_ACCOUNT_ID: ${param:NEW_RELIC_ACCOUNT_ID}
       GITHUB_WEBHOOK_SECRET: ${param:GITHUB_WEBHOOK_SECRET}
       # NEW_RELIC_EVENT_COLLECTOR: staging-insights-collector.newrelic.com
-      # NEW_RELIC_EVENT_TYPE: GitHub
+      # NEW_RELIC_EVENT_TYPE: GitHubEvent
     events:
       - http:
           path: webhook
