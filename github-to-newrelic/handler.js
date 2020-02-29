@@ -123,6 +123,7 @@ module.exports.webhook = async (event, context, callback) => {
 
   const payload = flatten(body);
   payload.eventType = eventType;
+  payload.githubEvent = githubEvent;
   payload.timestamp = (new Date()).getTime();
   prune_object(payload);
 
