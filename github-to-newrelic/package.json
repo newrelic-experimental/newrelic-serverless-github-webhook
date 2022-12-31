@@ -25,6 +25,6 @@
     "serverless-plugin-include-dependencies": "^4.0.1"
   },
   "dependencies": {
-    "flat": "^5.0.0"
+    "flat": "^5.0.1"
   }
 }
